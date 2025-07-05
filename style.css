@@ -109,3 +109,56 @@ h3{
 
 /* .........................
 .................................. */
+
+
+.card-container{
+    display: flex;
+   gap: 35px;
+   margin-left: 200px;
+   margin-top: 100px;
+   height: 600px;
+   flex-wrap: wrap;
+
+}
+
+
+
+.card1{
+    background-color:#faebd7;
+    border: 2px solid black;
+    width: 320px;
+    height: 480px;
+    padding:30px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 10px;
+    
+}
+
+.card-container :hover{
+transform: scale(1.05);
+}
+
+.card1-img{
+    width: 300px;
+    margin:0;
+    
+    
+}
+
+.img3rd{
+    height: 300px;
+}
+
+.card-btn{
+    font-size: 16.5px;
+    border-radius: 15px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px 6px rgb(49, 13, 13);
+}
+
+.card-btn :hover{
+
+   
+}
